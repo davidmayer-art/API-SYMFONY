@@ -1,0 +1,3 @@
+<?php //route_name_a7ccf3fcabf239366139fc90b4256f3b
+
+return [PHP_INT_MAX, 'api_trajets_get_collection'];

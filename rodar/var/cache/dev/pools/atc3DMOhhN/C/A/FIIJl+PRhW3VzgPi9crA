@@ -1,0 +1,57 @@
+<?php //App_Entity_Trajet
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Trajet',
+                'id',
+                'debut_trajet',
+                'fin_trajet',
+                'temps_trajet',
+                'cout',
+                'evaluation',
+                'createdAt',
+                'updatedAt',
+                'username',
+                'debutTrajet',
+                'finTrajet',
+                'tempsTrajet',
+            ],
+            'attributesMetadata' => [
+                [
+                    'id' => $o[1],
+                    'debut_trajet' => $o[2],
+                    'fin_trajet' => $o[3],
+                    'temps_trajet' => $o[4],
+                    'cout' => $o[5],
+                    'evaluation' => $o[6],
+                    'createdAt' => $o[7],
+                    'updatedAt' => $o[8],
+                    'username' => $o[9],
+                    'debutTrajet' => $o[10],
+                    'finTrajet' => $o[11],
+                    'tempsTrajet' => $o[12],
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];
